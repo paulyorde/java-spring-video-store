@@ -1,3 +1,4 @@
+package videostore;
 import java.math.BigDecimal;
 
 public class RegularMovie extends Movie {
