@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Rentals</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Rentals</h1>
+   	<div th:each="rental : ${rentals}" th:text="${rental.title} + ': ' + ${rental.fees}" />
+</body>
+</html>
